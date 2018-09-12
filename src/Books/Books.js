@@ -30,9 +30,9 @@ export const GetBooks = () => (
                     <div key={title}>
                         <p>{title}</p>
                         <p>{author}</p>
-                        {/*{reviews.map(r => (*/}
-                            {/*<p>{r.review}</p>)*/}
-                        {/*)}*/}
+                        {reviews.map(r => (
+                            <p>{r.review}</p>)
+                        )}
                     </div>
                 ))
             }}
